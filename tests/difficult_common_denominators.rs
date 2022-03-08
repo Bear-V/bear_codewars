@@ -1,6 +1,6 @@
 /**
  * @Author: BearV
- * @Description: 最小公倍数 0 0
+ * @Description: 最小公倍数 0 0 https://www.codewars.com/kata/54d7660d2daf68c619000d95
  * @Date: create in 2022/3/7 11:49 AM
  */
 
