@@ -19,7 +19,7 @@ fn gap(g: i32, m: u64, n: u64) -> Option<(u64, u64)> {
     None
 }
 
-fn is_prime(n: u64) -> bool {
+fn is_prime(n:  u64) -> bool {
     n == 2 || n % 2 > 0 && (3..=(n as f64).sqrt() as u64).step_by(2).all(|i| n % i > 0)
 }
 
