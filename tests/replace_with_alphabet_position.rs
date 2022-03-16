@@ -21,7 +21,7 @@ fn alphabet_position(text: &str) -> String {
     if str == "" {
         return str;
     }
-    let (l, a) = str.as_str().as_bytes().split_last().unwrap();
+    let (_, a) = str.as_str().as_bytes().split_last().unwrap();
     let som = String::from_utf8(Vec::from(a));
     match som {
         Ok(x) => x,
